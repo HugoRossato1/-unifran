@@ -1,7 +1,7 @@
 import os
 from flask import Flask
 app = Flask(__name__)
-@app.route('/')
+@app.route('/unifran')
 def index():
  return '<h2>Universidade de Franca!</h2>'
 if __name__ == "__main__":
